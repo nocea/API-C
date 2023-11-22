@@ -35,7 +35,6 @@ namespace DAL.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("descripcion_acceso")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("id_acceso");
@@ -52,11 +51,9 @@ namespace DAL.Migrations
                     NpgsqlPropertyBuilderExtensions.UseSerialColumn(b.Property<int>("id_usuario"));
 
                     b.Property<string>("apellidos_usuario")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("clave_usuario")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("dni_usuario")
@@ -64,27 +61,24 @@ namespace DAL.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("email_usuario")
-                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<bool>("estaBloqueado_usuario")
+                    b.Property<bool?>("estaBloqueado_usuario")
                         .HasColumnType("boolean");
 
-                    b.Property<DateTime>("fch_alta_usuario")
+                    b.Property<DateTime?>("fch_alta_usuario")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<DateTime>("fch_baja_usuario")
+                    b.Property<DateTime?>("fch_baja_usuario")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<DateTime>("fch_fin_bloqueo_usuario")
+                    b.Property<DateTime?>("fch_fin_bloqueo_usuario")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("nombre_usuario")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("tlf_usuario")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("id_usuario");

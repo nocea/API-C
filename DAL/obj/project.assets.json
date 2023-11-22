@@ -1075,19 +1075,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mario Nocea\\.nuget\\packages\\": {}
+    "C:\\Users\\Mario Nocea Cabrera\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mario Nocea\\Desktop\\GITHUB\\.NET-CORE-23-24\\API-C\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Mario Nocea Cabrera\\Desktop\\GITHUB\\API-C\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\Mario Nocea\\Desktop\\GITHUB\\.NET-CORE-23-24\\API-C\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\Mario Nocea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mario Nocea\\Desktop\\GITHUB\\.NET-CORE-23-24\\API-C\\DAL\\obj\\",
+      "projectPath": "C:\\Users\\Mario Nocea Cabrera\\Desktop\\GITHUB\\API-C\\DAL\\DAL.csproj",
+      "packagesPath": "C:\\Users\\Mario Nocea Cabrera\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mario Nocea Cabrera\\Desktop\\GITHUB\\API-C\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mario Nocea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mario Nocea Cabrera\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1140,7 +1140,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DAL.Entidades;
+using DAL;
+using Microsoft.AspNetCore.Mvc;
 
 namespace API_C.Controllers
 {
@@ -6,10 +8,22 @@ namespace API_C.Controllers
     [Route("[controller]")]
     public class ControladorAccesos : ControllerBase
     {
-        [HttpGet]
-        public string Get()
+        private readonly Contexto contexto;
+        public ControladorAccesos(Contexto contexto)
         {
-            return "hola";
+            this.contexto = contexto;
+        }
+        [HttpGet]
+        public List<Acceso> GetUsuarios()
+        {
+            return contexto.accesos.ToList();
+        }
+        [HttpPost]
+        public void PostUsuarios()
+        {
+            Acceso usu = new Acceso("31231231");
+            contexto.accesos.Add(usu);
+            contexto.SaveChanges();
         }
     }
 }
