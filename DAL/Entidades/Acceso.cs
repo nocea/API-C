@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 namespace DAL.Entidades
-{
+{   //Clase que representa las entidades 
     public class Acceso
     {
         [Key]
